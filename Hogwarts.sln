@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{49867309-E21D-45F1-90BC-3225FCAB4738}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCore", "ApiCore\ApiCore.csproj", "{09CC074B-5D41-4102-8C73-78BF125D39A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{E4B7FB4B-C9F9-40BA-8908-77E35E233DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts.Domain", "Hogwarts.Domain\Hogwarts.Domain.csproj", "{7E4D801E-A3E1-42AF-ABEF-55A2BA66EAED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C61CD599-2B59-4086-8686-B9154ECCE6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hogwarts.DatabaseContext", "Hogwarts.DatabaseContext\Hogwarts.DatabaseContext.csproj", "{C29AAACE-1E4E-4034-9CDE-A38D33956F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09CC074B-5D41-4102-8C73-78BF125D39A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CC074B-5D41-4102-8C73-78BF125D39A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CC074B-5D41-4102-8C73-78BF125D39A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CC074B-5D41-4102-8C73-78BF125D39A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E4D801E-A3E1-42AF-ABEF-55A2BA66EAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E4D801E-A3E1-42AF-ABEF-55A2BA66EAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E4D801E-A3E1-42AF-ABEF-55A2BA66EAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E4D801E-A3E1-42AF-ABEF-55A2BA66EAED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C29AAACE-1E4E-4034-9CDE-A38D33956F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C29AAACE-1E4E-4034-9CDE-A38D33956F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C29AAACE-1E4E-4034-9CDE-A38D33956F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C29AAACE-1E4E-4034-9CDE-A38D33956F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09CC074B-5D41-4102-8C73-78BF125D39A3} = {49867309-E21D-45F1-90BC-3225FCAB4738}
+		{7E4D801E-A3E1-42AF-ABEF-55A2BA66EAED} = {E4B7FB4B-C9F9-40BA-8908-77E35E233DA7}
+		{C29AAACE-1E4E-4034-9CDE-A38D33956F1D} = {C61CD599-2B59-4086-8686-B9154ECCE6DF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {227FFBC1-6F8B-4B4F-BB62-51329E2893F4}
+	EndGlobalSection
+EndGlobal
